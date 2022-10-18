@@ -1,0 +1,15 @@
+import 'dart:io';
+void main(){
+   int n= int.parse(stdin.readLineSync()); 
+   List<int> list=[];
+   for(int i=0;i<n;i++)
+   {
+       int x=int.parse(stdin.readLineSync()); 
+       list.insert(i,x);
+   }
+  
+  List<int>answer=list.reversed.toList();
+  print(answer);
+    
+    
+}

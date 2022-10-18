@@ -1,0 +1,12 @@
+import 'dart:io';
+void main(){
+   int n= int.parse(stdin.readLineSync()); 
+   var ans=n/1000;
+  int v=ans.toInt();
+  if(v%2==0)
+     print("EVEN");
+  else 
+    print("ODD");
+    
+    
+}

@@ -1,0 +1,16 @@
+import 'dart:io';
+import 'dart:convert';
+
+void main(){
+   int n= int.parse(stdin.readLineSync()); 
+   int sum=0;
+   for(int i=0;i<n;i++)
+   {
+       int x=int.parse(stdin.readLineSync()); 
+     sum+=x;
+   }
+   
+   print((sum.abs()));
+   
+  
+}

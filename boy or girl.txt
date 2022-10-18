@@ -1,0 +1,13 @@
+import 'dart:io';
+void main(){
+   //  Boy or girl
+   String text=stdin.readLineSync();
+   Set<String> set = <String>{}; 
+    for(int i=0;i<text.length;i++)
+       set.add(text[i]);
+
+  if(set.length%2==0)
+     print("CHAT WITH HER!");
+  else 
+    print("IGNORE HIM!");
+}
